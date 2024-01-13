@@ -1,0 +1,523 @@
+* {
+    margin: 0;
+    box-sizing: content-box;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    background-color: beige;
+}
+
+/* nav */
+.header {
+    z-index: 100;
+    height: 14vh;
+    width: 100%;
+    background-color: rgb(40, 39, 39);
+    position: fixed;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    font-size: x-large;
+    opacity: 0.8;
+    font-family: 'Varela Round', sans-serif;
+}
+
+.header a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+.header a:hover {
+    color: rgb(67, 67, 57);
+
+}
+
+.logo {
+    width: 6.5vw;
+    height: 13vh;
+    border-radius: 50vw;
+}
+
+/* main */
+main::before {
+    content: "";
+    height: 10vw;
+    display: block;
+}
+
+/* אפקט של הקלדה */
+#typing-container {
+    font-family: "Comic Sans MS";
+    font-size: 20px;
+    padding: 10px;
+    border: 1px solid #c8c6b2;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    margin-left: 19%;
+    margin-right: 19%;
+}
+
+* {
+    box-sizing: border-box;
+    text-align: right;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+.row {
+    text-align: center;
+}
+
+.column {
+    width: 20%;
+    margin-bottom: 16px;
+    padding: 5px;
+    line-height: 30px;
+    display: inline-block;
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.container {
+    padding: 0 16px;
+}
+
+.container::after,
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.title {
+    color: grey;
+}
+
+.button {
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 8px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+}
+
+.button:hover {
+    background-color: #555;
+}
+
+
+/* footer */
+.contactUs {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    row-gap: 10px;
+    width: 100%;
+    height: 30vh;
+    background-color: #d3b374;
+    margin: auto;
+    margin-top: 3%;
+    text-align: center;
+}
+
+.contactUsB {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    line-height: 53px;
+}
+
+.contactUsB h1,
+h2 {
+    text-align: center;
+}
+
+selector .logo-img img {
+    transition: 0.4s all;
+}
+
+
+.contactUschild input {
+    width: 10vw;
+    height: 5vh;
+    opacity: 0.1;
+    border: 1px solid;
+    border-color: white;
+}
+
+.contactForm button {
+    opacity: 0.9;
+    width: 8vw;
+    height: 5vh;
+    background-color: #ffffff;
+    border-color: #aa8948;
+    border-width: 2px;
+}
+
+.contactUs2 {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 33vh;
+    background-color: rgba(200, 165, 118, 0.808);
+    margin: auto;
+    justify-content: space-evenly;
+    line-height: 1.7;
+    font-size: large;
+}
+
+.logofooter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+}
+
+.logofooter img {
+    max-width: 100px;
+    flex: 1;
+    border-radius: 20vw;
+}
+
+.logofooter a :hover {
+    width: 90px;
+}
+.menu {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    color: black;
+    margin-top: 0.5vw;
+    line-height: 37px;
+}
+
+.menu a:hover {
+    color: rgb(251, 253, 255);
+}
+
+.menu a {
+    text-decoration: none;
+    color: black;
+}
+
+.menu ul {
+    list-style: none;
+}
+
+.arrow {
+    border: solid rgb(255, 255, 255);
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 3px;
+}
+
+.left {
+    transform: rotate(135deg);
+    -webkit-transform: rotate(135deg);
+}
+
+.hitkashroot li {
+    list-style: none;
+}
+
+.hitkashroot a {
+    list-style: none;
+    text-decoration: none;
+}
+
+.hitkashroot a:hover {
+    color: rgb(251, 253, 255);
+}
+
+.hitkashroot h3 {
+    margin-right: 2.5vw;
+    margin-top: 0.5vw;
+}
+
+.hitkashroot {
+    line-height: 37px;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+.hitkashroot i {
+    font-size: medium;
+}
+
+.visitus {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    margin-top: 0.5vw;
+    line-height: 33px;
+}
+
+.iconsDiv {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-right: 20%;
+}
+
+.visitus h3 {
+    margin-right: 9.5vw;
+}
+
+.icons {
+    margin: 15px;
+    font-size: 1.5vw;
+}
+
+footer a {
+    text-decoration: none;
+    color: black;
+}
+
+.fa-youtube {
+    color: white;
+}
+
+.fa-youtube:hover {
+    opacity: 0.5;
+}
+
+.fa-twitter {
+    color: white;
+}
+
+.fa-twitter:hover {
+    opacity: 0.5;
+}
+
+.fa-instagram {
+    color: white;
+}
+
+.fa-instagram:hover {
+    opacity: 0.5;
+}
+
+/* צאט */
+
+#chatButton {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    padding: 10px 20px;
+    background-color: #888669;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+#chatWindow {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 250px;
+    background-color: #f8f8f8;
+    border: 1px solid #ddd;
+    border-radius: 7px;
+    display: none;
+}
+
+#chatHeader {
+    background-color: #383633;
+    color: #fff;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#chatContent {
+    height: 200px;
+    padding: 10px;
+    overflow-y: scroll;
+}
+
+#chatInput {
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#messageInput {
+    flex: 1;
+    padding: 5px;
+}
+
+#sendButton {
+    padding: 5px 10px;
+    background-color: #434240;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+
+}
+/* gmail */
+.gmail1{
+    list-style: none;
+}
+
+/* #p a{
+    list-style: none;
+} */
+
+/* .hitkashroot a {
+    list-style: none;
+    text-decoration: none;
+}
+
+.hitkashroot a:hover {
+    color: rgb(251, 253, 255);
+}
+
+.hitkashroot h3 {
+    margin-right: 2.5vw;
+    margin-top: 0.5vw;
+}
+
+.hitkashroot {
+    line-height: 37px;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+.hitkashroot i {
+    font-size: medium;
+} */
+
+
+@media(max-width : 600px) {
+
+    /* nav */
+    .header {
+        font-size: large;
+    }
+
+    .logo {
+        width: 7.5vw;
+        height: 7vh;
+        border-radius: 70vw;
+    }
+
+    /* main */
+
+    .column {
+        display: block;
+        margin-right: auto;
+        margin-left: auto;
+        width: 70%;
+    }
+
+    #typing-container {
+        margin-top: 40px;
+    }
+
+    /* footer */
+
+    .contactUschild input {
+        width: 17vw;
+    }
+
+    .contactForm button {
+        width: 15vw;
+    }
+
+    .contactUs {
+        width: 100%;
+        height: 23vh;
+    }
+
+    .contactUsB {
+        line-height: 37px;
+    }
+
+    .contactUs,
+    h1 {
+        font-size: x-large;
+    }
+
+    .contactUs,
+    h2 {
+        font-size: medium;
+    }
+
+    .contactUs2 {
+        font-size: medium;
+    }
+
+    .logofooter {
+        display: none;
+        flex: none;
+    }
+
+    .icons {
+        font-size: medium;
+        margin: 2px;
+        margin-left: 25%;
+    }
+
+    .hitkashroot {
+        font-size: medium;
+    }
+
+    .hitkashroot h3 {
+        margin-right: 6.5vw;
+    }
+
+    .visitus h3 {
+        margin-right: 10vw;
+    }
+
+}
+
+@media(max-width : 1000px) {
+    .logo {
+        width: 8.5vw;
+        height: 11vh;
+        border-radius: 50vw;
+    }
+
+    /* main */
+
+    .column {
+        display: block;
+        margin-right: auto;
+        margin-left: auto;
+        width: 60%;
+    }
+
+    #typing-container {
+        margin-top: 40px;
+    }
+
+    /* footer */
+    .contactUs {
+        text-align: center;
+    }
+
+    .contactUschild input {
+        width: 14vw;
+    }
+
+    .contactForm button {
+        width: 10vw;
+    }
+
+}

@@ -1,0 +1,330 @@
+* {
+    margin: 0;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+}
+
+/* header */
+.header {
+    z-index: 100;
+    height: 18vh;
+    width: 100%;
+    background-color: black;
+    position: fixed;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    font-size: x-large;
+    opacity: 0.7;
+}
+
+.header a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+.header a:hover {
+    color: rgb(67, 67, 57);
+}
+
+.logo {
+    width: 8vw;
+    height: 15vh;
+    border-radius: 50vw;
+}
+
+video {
+    width: 100%;
+}
+
+.opening {
+    display: flex;
+    margin: auto;
+    margin-right: 10vw;
+}
+
+.opening img {
+    width: 50vw;
+    margin: auto;
+    border-radius: 10px;
+}
+
+.opening h2 .opening h3 .opening p {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+.opening .piska {
+    text-align: center;
+    margin-top: 8vw;
+}
+
+
+.describe {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex: 1;
+}
+
+.mitcham {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    border: 3px solid;
+    border-color: rgba(221, 202, 174, 0.808);
+    margin: 20px;
+    row-gap: 10px;
+    margin-top: 50px;
+    width: 60%;
+    background-color: rgba(243, 231, 215, 0.808);
+    margin: auto;
+    margin-top: 2%;
+    padding: 2vw;
+
+
+}
+
+.fatherimg {
+    display: flex;
+    justify-content: center;
+}
+
+.textmitcham {
+    padding-top: -100%;
+    /* flex-direction: column; */
+}
+
+.mitcham h1 {
+    text-align: center;
+}
+
+.mitcham h3 {
+    text-align: center;
+}
+
+.mitcham1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    border: 3px solid;
+    border-color: rgba(7, 1, 1, 0.808);
+    margin: 20px;
+    row-gap: 10px;
+    margin-top: 50px;
+    width: 35%;
+    height: 60vh;
+    align-items: center;
+}
+
+.mitcham1 img {
+    width: 100%;
+    height: -10vh;
+    flex: 40%;
+    flex: 2;
+
+}
+
+.mitcham2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    border: 3px solid;
+    border-color: rgba(7, 1, 1, 0.808);
+    margin: 20px;
+    row-gap: 10px;
+    margin-top: 50px;
+    width: 35%;
+    height: 60vh;
+    align-items: center;
+}
+
+.mitcham2 img {
+    width: 100%;
+    height: 50vh;
+    flex: 40%;
+    flex: 2;
+
+}
+
+.mitcham button {
+    color: cornsilk;
+    background-color: #aa8948;
+    border-radius: 15px;
+    height: 8vh;
+    width: 150%;
+    flex: 1;
+}
+
+/* footer */
+.contactUs {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    /* margin: 20px; */
+    row-gap: 10px;
+    /* margin-top: 50px; */
+    width: 100%;
+    height: 30vh;
+    background-color: #d3b374;
+    margin: auto;
+    margin-top: 3%;
+    text-align: center;
+
+}
+
+.contactUschild input {
+    width: 10vw;
+    height: 5vh;
+    opacity: 0.1;
+    border: 1px solid;
+    border-color: white;
+}
+
+.contactForm button {
+    opacity: 0.9;
+    width: 8vw;
+    height: 5vh;
+    background-color: #ffffff;
+    border-color: #aa8948;
+    border-width: 2px;
+}
+
+.contactUs2 {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 33vh;
+    background-color: rgba(200, 165, 118, 0.808);
+    margin: auto;
+    justify-content: space-evenly;
+    line-height: 1.7;
+    font-size: large;
+
+}
+
+.logofooter {
+    flex: 1;
+
+}
+.logofooter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logofooter img {
+    max-width: 100px;
+    flex: 1;
+    border-radius: 20vw;
+}
+.menu {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    color: black;
+    margin-top: 0.5vw;
+    line-height: 33px;
+
+}
+
+.menu a:hover {
+    color: rgb(251, 253, 255);
+}
+
+.menu a {
+    text-decoration: none;
+    color: black;
+}
+
+.menu ul {
+    list-style: none;
+
+}
+
+.arrow {
+    border: solid rgb(255, 255, 255);
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 3px;
+}
+
+.left {
+    transform: rotate(135deg);
+    -webkit-transform: rotate(135deg);
+}
+
+.hitkashroot li {
+    list-style: none;
+}
+
+.hitkashroot a {
+    list-style: none;
+    text-decoration: none;
+    color: black
+}
+
+.hitkashroot h3 {
+    margin-right: 2.5vw;
+    margin-top: 0.5vw;
+}
+
+.hitkashroot {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+.hitkashroot i {
+    font-size: medium;
+}
+
+.visitus {
+    flex: 1;
+    margin-top: 0.5vw;
+    line-height: 33px;
+}
+
+
+.icons {
+    margin: 15px;
+    font-size: 1.5vw;
+}
+
+
+footer a {
+    text-decoration: none;
+    color: black;
+}
+
+.fa-youtube {
+    color: red;
+}
+
+.fa-youtube:hover {
+    opacity: 0.5;
+}
+
+.fa-facebook {
+    color: rgb(59, 88, 154);
+}
+
+.fa-facebook:hover {
+    opacity: 0.5;
+}
+
+.fa-twitter {
+    color: rgb(0, 169, 232);
+}
+
+.fa-twitter:hover {
+    opacity: 0.5;
+}
+
+.fa-instagram:hover {
+    opacity: 0.5;
+}

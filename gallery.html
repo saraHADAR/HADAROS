@@ -1,0 +1,174 @@
+
+<!DOCTYPE html>
+<html lang="en" dir="rtl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="../img/toplogo.png">
+    <title>גלריה</title>
+    <link rel="stylesheet" href="../icon/css/all.css">
+    <link rel="stylesheet" href="../css/gallery.css">
+    <link rel="stylesheet" href="../fontawesome-free-6.5.1-web/css/all.css">
+    <link href='https://fonts.googleapis.com/css?family=Caveat Brush' rel='stylesheet'>
+
+</head>
+
+<body>
+
+    <nav>
+    
+        <div class="header">
+            <a href="../html/home.html" onclick="document.getElementById('hidenNav').style.display='none'">דף הבית</a>
+            <a href="../html/gallery.html">גלריה</a>
+            <a href="../html/food.html">קולינריה</a>
+            <a href="../html/know.html">הכירו אותנו</a>
+            <a href="../html/zevet.html">הצוות שלנו</a>
+            <a href="#zurkesher">צור קשר</a>
+            <a href="../html/home.html"><img src="../img/logo5.png" class="logo" alt=""></a>
+        </div>
+    </nav>
+
+
+    <main>
+
+        <div class="line">
+            <img src="../img/gallery/end/1.png" alt="">
+            <img src="../img/gallery/end/2.png" alt="">
+            <img src="../img/gallery/end/3.png" alt="">
+            <img src="../img/gallery/end/4.png" alt="">
+            <img src="../img/gallery/end/5.png" alt="">
+            <img src="../img/gallery/end/6.png" alt="">
+            <img src="../img/gallery/end/-1.png" alt="">
+            <img src="../img/gallery/end/-2.png" alt="">
+            <img src="../img/gallery/end/-3.png" alt="">
+            <img src="../img/gallery/end/-4.png" alt="">
+            <img src="../img/gallery/end/-5.png" alt="">
+            <img src="../img/gallery/end/-6.png" alt="">
+        </div>
+
+    </main>
+
+    <footer>
+        <div class="contactUs">
+            <div class="h1">
+                <h1 >צרו קשר ונחזור אליכם בהקדם</h1>
+            </div>
+            <div class="h2">
+                <h2> ההרשמה לאירועי קיץ 2024 נפתחה!</h2>
+            </div>
+            <div id="zurkesher">
+                <div class="contactUschild">
+
+                    <form class="contactForm">
+
+                        <label for="name">שם:</label>
+                        <input type="text" id="name" name="name">
+                        <label for="email">אימייל:</label>
+                        <input type="email" id="email" name="email" required>
+
+                        <label for="phone">טלפון:</label>
+                        <input type="tel" id="phone" name="phone" required pattern="[0-9]{10}"
+                            title="Please enter a valid 10-digit phone number">
+
+                        <button id="myBtn" onclick="javascript:alert('.תודה שפנית אלינו אנו נחזור אליך בהקדם')"
+                            type="submit">שליחה</button>
+                    </form>
+
+                </div>
+            </div>
+        </div>
+        <div class="contactUs2">
+            <div class="logofooter">
+                <a href="../html/home.html"><img src="../img/logo5.png" alt=""></a>
+            </div>
+            <div class="menu">
+                <ul>
+                    <h3>תפריט ניווט</h3>
+                    <li><i class="arrow left"></i> <a href="zevet.html">הצוות שלנו</a></li>
+                    <li><i class="arrow left"></i> <a href="know.html">אודות</a></li>
+                    <li><i class="arrow left"></i> <a href="gallery.html">EVENTS</a></li>
+                    <li><i class="arrow left"></i> <a href="resert.html">RESORT</a></li>
+                </ul>
+            </div>
+            <div class="hitkashroot">
+                <h3>פרטי התקשרות</h3>
+                <ul>
+                    <li><i class='fas fa-phone-alt fa-lg' style="color: #ffffff;"></i></i>
+                        <a class="contact-a-phone" href="tel:026471827"></i>0779972343</a>
+                    </li>
+                    <li><i class="fa-brands fa-whatsapp" style="color: #ffffff;"></i> לצאט וואסטפ</li>
+                    <li> <i class='far fa-envelope' style="color: #ffffff;"></i>
+                        <a href="mailto:office@troya-garden.co.il" target="_blank"
+                            rel="noopener">office@hadaros.co.il</a>
+                    </li>
+                    <li><i class='fab fa-waze' style='color: aliceblue'></i> די זהב 7, פארק ירושלים</li>
+                </ul>
+            </div>
+            <a class="contact-a-phone" href="tel:026471827"></a>
+            <div class="visitus">
+                <h3> בקרו אותנו גם כאן</h3>
+                <div class="iconsDiv">
+                    <a href="../html/icon.html"><i class="icons fa-brands fa-youtube"></i></a>
+                <div id="icontwitter"><a href="../html/icon.html"> <i class="icons fa-brands fa-twitter"></i></a></div>
+                <a href="../html/icon.html"><i class="icons fa-brands fa-instagram"></i></a>
+                <!-- <a href="../html/icon.html"><i class="fa-brands fa-facebook" style="font-size: x-large;"></i></a> -->
+                </div>
+                
+            </div>
+        </div>
+
+        <!-- "https://www.youtube.com/"
+        "https://twitter.com/"
+        "https://www.instagram.com"
+        https://www.facebook.com/" -->
+        <!-- <button type="button" class="back-to-top"></button> -->
+    </footer>
+    <!-- צאט -->
+    <button id="chatButton">Chat</button>
+
+    <div id="chatWindow">
+      <div id="chatHeader">
+        <h3>הצאט שלנו</h3>
+        <button id="closeButton">X</button>
+      </div>
+      <div id="chatContent">
+        <!-- Chat messages will be displayed here -->
+      </div>
+      <div id="chatInput">
+        <input type="text" id="messageInput" placeholder="Type your message...">
+        <button id="sendButton">Send</button>
+      </div>
+    </div>
+  
+    <script src="script.js"></script>
+  
+  
+    <script>const chatButton = document.getElementById("chatButton");
+      const chatWindow = document.getElementById("chatWindow");
+      const closeButton = document.getElementById("closeButton");
+      const sendButton = document.getElementById("sendButton");
+      const messageInput = document.getElementById("messageInput");
+      const chatContent = document.getElementById("chatContent");
+      
+      chatButton.addEventListener("click", () => {
+        chatWindow.style.display = "block";
+      });
+      
+      closeButton.addEventListener("click", () => {
+        chatWindow.style.display = "none";
+      });
+      
+      sendButton.addEventListener("click", () => {
+        const message = messageInput.value;
+        if (message.trim() !== "") {
+          const messageElement = document.createElement("div");
+          messageElement.textContent = message;
+          chatContent.appendChild(messageElement);
+          messageInput.value = "";
+        }
+      });
+      </script>
+  
+</html>
+</body>

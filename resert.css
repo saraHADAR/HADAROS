@@ -1,0 +1,503 @@
+* {
+    margin: 0;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    background-color: beige;
+}
+
+/* nav */
+.header {
+    z-index: 100;
+    height: 14vh;
+    width: 100%;
+    background-color: black;
+    position: fixed;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    font-size: x-large;
+    opacity: 0.8;
+    font-family: 'Varela Round', sans-serif;
+
+}
+
+.header a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+.header a:hover {
+    color: rgb(67, 67, 57);
+
+}
+
+/* .header :active {
+    background-color: #111;
+  } */
+.logo {
+    /* width: 6.5vw; */
+    height: 13vh;
+    border-radius: 50vw;
+}
+
+.firstimg {
+    width: 100%;
+}
+
+header .firstimg::before {
+    content: "";
+    height: 6.6vw;
+    display: block;
+}
+
+/* main */
+
+/* main{
+    padding: 2em;
+} */
+
+main::before {
+    content: "";
+    height: 6.6vw;
+    display: block;
+}
+
+.firstimg {
+    width: 100%
+}
+
+.our-events-section {
+    display: flex;
+    gap: 5em;
+    margin-bottom: 2em;
+    padding-top: 5em;
+}
+
+.our-events-img1 {
+    width: 250em;
+    height: 30em;
+    background-image: url(../img/restore/table.jpg);
+    /* background-image: url(../img/restore/big\ room.jpg); */
+    background-attachment: fixed;
+}
+
+.our-events-img2 {
+    width: 250em;
+    height: 30em;
+    background-image: url(../img/restore/bed.jpg);
+    background-attachment: fixed;
+}
+
+.our-events-img3 {
+    width: 250em;
+    height: 30em;
+    background-image: url(../img/restore/safa.jpg);
+    background-attachment: fixed;
+}
+
+.our-events-img {
+    width: 100%;
+    height: 40%;
+
+}
+
+.text-1 {
+    font-family: 'Varela Round', sans-serif;
+    font-size: large;
+    align-self: center;
+    margin-left: 8em;
+    text-align: center;
+    color: rgba(35, 55, 70, 255);
+}
+
+#h1-text {
+    font-size: 1.5em;
+
+}
+
+.text-2 {
+    font-family: 'Varela Round', sans-serif;
+    font-size: large;
+    align-self: center;
+    text-align: center;
+    margin-right: 8em;
+    color: rgba(35, 55, 70, 255);
+}
+
+/* footer */
+.contactUs {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    row-gap: 10px;
+    width: 100%;
+    height: 30vh;
+    /* background-color: #767269; */
+    background-color: #d3b374;
+    margin: auto;
+    margin-top: 3%;
+    text-align: center;    
+    /* padding: 0.5%; */
+
+
+}
+
+selector .logo-img img {
+    transition: 0.4s all;
+}
+
+
+.contactUschild input {
+    width: 10vw;
+    height: 5vh;
+    opacity: 0.1;
+    border: 1px solid;
+    border-color: white;
+    
+}
+
+.contactForm button {
+    opacity: 0.9;
+    width: 8vw;
+    height: 5vh;
+    background-color: #ffffff;
+    border-color: #aa8948;
+    border-width: 2px;
+    
+}
+
+.contactUs2 {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 33vh;
+    background-color: rgba(200, 165, 118, 0.808);
+    margin: auto;
+    justify-content: space-evenly;
+    line-height: 1.7;
+    font-size: large;
+}
+
+.logofooter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+}
+
+.logofooter img {
+    max-width: 100px;
+    flex: 1;
+    border-radius: 20vw;
+}
+
+.logofooter a :hover {
+    width: 90px;
+}
+
+.menu {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    color: black;
+    margin-top: 0.5vw;
+    line-height: 37px;
+
+}
+
+.menu a:hover {
+    color: rgb(251, 253, 255);
+}
+
+.menu a {
+    text-decoration: none;
+    color: black;
+}
+
+.menu ul {
+    list-style: none;
+
+}
+
+.arrow {
+    border: solid rgb(255, 255, 255);
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 3px;
+}
+
+.left {
+    transform: rotate(135deg);
+    -webkit-transform: rotate(135deg);
+}
+
+.hitkashroot li {
+    list-style: none;
+}
+
+.hitkashroot a {
+    list-style: none;
+    text-decoration: none;
+}
+
+.hitkashroot a:hover {
+    color: rgb(251, 253, 255);
+}
+
+.hitkashroot h3 {
+    margin-right: 2.5vw;
+    margin-top: 0.5vw;
+}
+
+.hitkashroot {
+    line-height: 37px;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+.hitkashroot i {
+    font-size: medium;
+}
+
+.visitus {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    margin-top: 0.5vw;
+    line-height: 33px;
+
+}
+
+.iconsDiv {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    
+}
+
+.visitus h3 {
+    margin-right: 7.5vw;
+    
+}
+
+.icons {
+    margin: 15px;
+    font-size: 1.5vw;
+}
+
+
+footer a {
+    text-decoration: none;
+    color: black;
+}
+
+.fa-youtube {
+    /* color: red; */
+    color: white;
+}
+
+.fa-youtube:hover {
+    opacity: 0.5;
+}
+
+.fa-twitter {
+    /* color: rgb(0, 169, 232); */
+    color: white;
+
+}
+
+.fa-twitter:hover {
+    opacity: 0.5;
+}
+
+.fa-instagram {
+    color: white;
+
+}
+
+.fa-instagram:hover {
+    opacity: 0.5;
+}
+
+/* צאט */
+
+#chatButton {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    padding: 10px 20px;
+    background-color: #888669;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+#chatWindow {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 250px;
+    background-color: #f8f8f8;
+    border: 1px solid #ddd;
+    border-radius: 7px;
+    display: none;
+}
+
+#chatHeader {
+    background-color: #383633;
+    color: #fff;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#chatContent {
+    height: 200px;
+    padding: 10px;
+    overflow-y: scroll;
+}
+
+#chatInput {
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#messageInput {
+    flex: 1;
+    padding: 5px;
+}
+
+#sendButton {
+    padding: 5px 10px;
+    background-color: #434240;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+
+}
+
+@media(max-width:600px) {
+
+    /* nav */
+    .header {
+        font-size: large;
+    }
+
+    .logo {
+        width: 7.5vw;
+        height: 7vh;
+        border-radius: 70vw;
+    }
+
+    /* main */
+
+    .firstimg {
+        margin-top: 8.3%;
+    }
+
+    .our-events-section {
+        gap: 2em;
+    }
+
+    .our-events-img1,
+    .our-events-img2,
+    .our-events-img3 {
+        height: 25em;
+        background-size: cover;
+        background-position: center;
+    }
+
+    .text-1,
+    .text-2 {
+        font-size: smaller;
+        margin: 0;
+    }
+      /* footer */
+
+    .contactUschild input {
+        width: 17vw;
+    }
+
+    .contactForm button {
+        width: 15vw;
+    }
+
+    .contactUs {
+        width: 100%;
+        height: 23vh;
+    }
+
+    .contactUs,
+    h1 {
+        font-size: x-large;
+    }
+
+    .contactUs,
+    h2 {
+        font-size: medium;
+    }
+
+    .contactUs2 {
+        font-size: medium;
+    }
+
+    .logofooter {
+        display: none;
+        flex: none;
+    }
+
+    .icons {
+        font-size: medium;
+        margin: 2px;
+        margin-left: 25%;
+    }
+
+    .hitkashroot {
+        font-size: medium;
+    }
+
+    .hitkashroot h3 {
+        margin-right: 6.5vw;
+    }
+
+    .visitus h3 {
+        margin-right:10vw;
+    }
+
+}
+
+@media(max-width:1000px) {
+    /* .logo {
+        width: 8.5vw;
+        height: 11vh;
+        border-radius: 50vw;
+    } */
+    .firstimg {
+        margin-top: 2.5%;
+    }
+
+    .our-events-section {
+        padding-top: 0.5em;
+    }
+    
+    .our-events-img1,
+    .our-events-img2,
+    .our-events-img3 {
+        background-size: cover;
+        background-position: center;
+    }
+      /* footer */
+      .contactUschild input {
+        width: 14vw;
+    }
+
+    .contactForm button {
+        width: 10vw;
+    }
+}
